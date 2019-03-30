@@ -32,6 +32,7 @@ HttpServer.add(light);
 
 If the diyHue bridge can't find your lights you can add them manually
 The two important things to change are the ip adress and the light number (it shold match the light id)
+You can specify the port together with the ip adress (like 192.168.178.20:8080) ip:port
 ```json
 "lights": {
         "1": {
